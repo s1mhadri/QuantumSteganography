@@ -48,5 +48,3 @@ ex4 = fn_QtoC(ex3);
 
 fi = fn_shrink(ex4);
 subplot(2, 2, 2);imshow(uint8(fi)); title('Extracted image');
-
-% profsave(profile('info'),'myprofile_results');
